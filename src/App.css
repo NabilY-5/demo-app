@@ -6,8 +6,21 @@
 .nav {
 	display: flex;
 	justify-content: space-between;
+	gap: 20px;
+	list-style-type: none;
+	background-color: lightsalmon;
+	padding: 15px;
 }
 
-.logo {
-	height: 20px;
+.nav a {
+	color: white;
+	font-size: 1.6em;
+}
+
+.nav img {
+	height: 7em;
+}
+
+h1 {
+	text-align: center;
 }

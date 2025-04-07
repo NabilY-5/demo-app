@@ -1,9 +1,7 @@
 function Navbar() {
 	return (
-		<nav>
-			<div className="logo">
-				<img src="./logo.jpg" alt="logo" />
-			</div>
+		<nav className="nav">
+			<img src="./logo.png" alt="logo" />
 			<ul className="nav">
 				<li>
 					<a href="https://wwws.airfrance.fr/">S'envoler</a>

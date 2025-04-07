@@ -1,3 +1,7 @@
+
+import Navbar from "./components/Navbar";
+import "./App.css";
+ 
 const countriesList = [
   {
     name: "Paris",
@@ -32,13 +36,15 @@ const countriesList = [
     // Heure local : GMT -4
   },
 ];
+        
+        
 
 function App() {
-  return (
-    <div>
-      <h1>Exercice</h1>
-    </div>
-  );
+	return (
+		<div>
+			<Navbar />
+		</div>
+	);
 }
 
 export default App;

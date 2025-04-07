@@ -2,7 +2,7 @@ type countriesList = {
     name: string,
     image: string,
     description:string,
-    // heure local : ??
+    heure local : ??
 }
 
 function Card (){
@@ -10,4 +10,4 @@ function Card (){
     return
 }
 
-import default Card; 
+import default Card;
